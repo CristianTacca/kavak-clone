@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "python-dotenv"
+version = "0.1.0"
+description = ""
+authors = ["Cristian Tacca <88325995+CristianTacca@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "python_dotenv"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+environs = "^9.5.0"
+flask = "^2.2.2"
+flask-sqlalchemy = "^3.0.2"
+flask-migrate = "^3.1.0"
+psycopg2-binary = "^2.9.5"
+uuid = "^1.30"
+flask-jwt-extended = "^4.4.4"
+flask-httpauth = "^4.7.0"
+gunicorn = "^20.1.0"
+werkzeug = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
